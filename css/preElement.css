@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.source-code {
+  position: relative;
+  overflow-x: scroll;
+  padding-top: 0.5em;
+  background: #f1f1f1;
+}
+.source-code::-webkit-scrollbar {
+  display: none;
+}
+.source-code code {
+  display: block;
+  padding-left: 2em;
+}
+.source-code .ttl-label {
+  position: absolute;
+  top: 0;
+  padding: 1px 10px;
+  background: lightgray;
+}
+.source-code .row-list {
+  position: absolute;
+  top: 0.5em;
+  left: 1.5em;
+  text-align: right;
+}
